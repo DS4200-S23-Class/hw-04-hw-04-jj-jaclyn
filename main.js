@@ -26,3 +26,9 @@ for (let i = 0; i < points.length; i++) {
                   document.getElementById("text2").innerHTML = text2;
 }
 )}
+
+function addDot() {
+    var inputX = document.getElementById('cx').value;
+    var inputY = document.getElementById('cy').value;
+    
+};
