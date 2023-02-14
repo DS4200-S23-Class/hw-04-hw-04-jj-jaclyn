@@ -2,11 +2,60 @@
 <html> 
 
 <head>
+    <link rel = "stylesheet" href = "style.css">
     <meta charset=utf-8/>
+    <title>hw-04</title>
+
 </head>
+    <!-- add center header -->
+    <h1>hw-04: Event Handling</h1>
 
+    <!-- create two columns -->
+    <div>
+         <!-- first column -->
+        <div class="column1">
+            <!-- create scatter plot -->
+        <svg id="frame">
+            <!-- create axis for the scatter plot -->
+                <line x1="0" x2="0" y1="0" y2="500"></line>
+                <line x1="0" x2="500" y1="500" y2="500"></line>
+            <!-- creating the point -->
+            <!-- cx: to right cy: top to down -->
+                <circle  cx="50" cy="400" r="10"/>
+                <circle  cx="100" cy="300" r="10"/>
+                <circle  cx="300" cy="400" r="10"/>
+                <circle  cx="450" cy="50" r="10"/> 
+            </div>
+        
+        </svg>
+    </div>
 
-<body>
+        <!-- second column-->
+        <div class="column2">
+    
+            <p id="text1"></p>
+            <p id="text2"></p>
+            <p>Select the x coordinate for the point you want to add. <input type="number" id="cx"></p>
+            <p>Select the y coordinate for the point you want to add. <input type="number" id="cy"></p>
+
+            <button onclick="addDot()">Add point</button>
+        </div>
+    </div>
+
+    <!-- add reference as bullet point -->
+    <div>
+    <h2>Acknowledgements</h2>
+    <p1>
+        <ul>
+        <li>https://css-tricks.com/how-to-make-charts-with-svg/</li>
+        <li>https://www.w3schools.com/html/default.asp</li>
+        <li>https://learntheweb.courses/topics/advanced-svg/</li>
+        <li>https://www.geeksforgeeks.org/html-tags-a-to-z-list/?ref=lbp</li>
+        </ul>
+    </p1>
+</div>
+
+<script src="main.js"></script>
 
 
 </body>
