@@ -38,8 +38,9 @@ h3{
 
 /* Clear floats after the columns */
 
-#axis {
+line {
     stroke-width: 5px;
+    stroke: black;
 }
 
 
@@ -51,3 +52,8 @@ circle:hover{
   fill: yellow;
 }
 
+
+.Border {
+  stroke: purple;
+  stroke-width: 4;
+}
