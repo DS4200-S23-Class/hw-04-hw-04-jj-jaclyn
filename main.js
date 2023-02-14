@@ -1,3 +1,4 @@
+
 // Create list of points
 let points = document.getElementsByTagName("circle");
 
@@ -21,6 +22,7 @@ for (let i = 0; i < points.length; i++) {
   
                   // show the text information
                   document.getElementById("text1").innerHTML = text1;
+
                   document.getElementById("text2").innerHTML = text2;
 }
 )}
