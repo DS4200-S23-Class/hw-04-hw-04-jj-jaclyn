@@ -27,8 +27,12 @@ for (let i = 0; i < points.length; i++) {
 )}
 
 function addDot() {
-	var image = document.getElementById("frame");
     var inputX = document.getElementById('cx').value / 50;
     var inputY = (500 - document.getElementById('cy').value) / 50;
+
+    var circle = svg.append("circle")
+                .attr("cx", inputX)
+                .attr("cy", inputY)
+                .attr("r", 10);
     
 }
