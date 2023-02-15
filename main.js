@@ -30,8 +30,7 @@ for (let i = 0; i < points.length; i++) {
 function addDot() {
 	var image = document.getElementById("frame");
     var inputX = document.getElementById('cx').value / 50;
-    var inputY = document.getElementById('cy').value / 50;
+    var inputY = (500 - document.getElementById('cy').value) / 50;
     
-    <circle  cx="inputX" cy="500 - inputY" r="10"/>
-
+    alert(inputX)
 };
