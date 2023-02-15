@@ -22,7 +22,6 @@ for (let i = 0; i < points.length; i++) {
   
                   // show the text information
                   document.getElementById("text1").innerHTML = text1;
-
                   document.getElementById("text2").innerHTML = text2;
 }
 )}
@@ -32,4 +31,4 @@ function addDot() {
     var inputX = document.getElementById('cx').value / 50;
     var inputY = (500 - document.getElementById('cy').value) / 50;
     
-};
+}
