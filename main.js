@@ -32,5 +32,4 @@ function addDot() {
     var inputX = document.getElementById('cx').value / 50;
     var inputY = (500 - document.getElementById('cy').value) / 50;
     
-    alert(inputX)
 };
