@@ -28,7 +28,12 @@ for (let i = 0; i < points.length; i++) {
 )}
 
 function addDot() {
+	var c = document.getElementById("frame");
     var inputX = document.getElementById('cx').value;
     var inputY = document.getElementById('cy').value;
-    
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+	ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+	ctx.stroke();
+
 };
